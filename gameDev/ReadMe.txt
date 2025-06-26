@@ -1,4 +1,4 @@
-This folder has the zipped 'Sidescroll' game. The game was created by me using Gamemaker Studio around 2014 on Windows 7. The game still works on Windows 11! 
+In addition to the Crawlspace promo, this folder has the zipped 'Sidescroll' game. The game was created by me using Gamemaker Studio around 2014 on Windows 7. The game still works on Windows 11! 
 Simply download the zip and extract all before running the executable to open the game in its own window
 
 Move with the arrow keys
