@@ -77,9 +77,14 @@
 <br>
 <h2>Crawl Space!</h2>
 
-https://github.com/user-attachments/assets/05eb2168-413e-463c-830c-69bc9239aa0b
+https://github.com/user-attachments/assets/f3a19316-eb21-4369-ab2c-39650a69e590
+
+
+
+(Bug sprite creation and animation approx 2 hours)
 
 <p>This is my current project, a retro style space bug blasting game! I've created and animated the basic enemy sprite (above) and the player sprite (featured below). I've also created the raygun and laser sprites as featured in the firing effects of the below video.</p>
+(Did not measure time to create player sprite, raygun creation, animation, integrated into player sprite and re-drawing player sprite took around an hour)
 
 
 
