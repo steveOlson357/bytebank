@@ -76,7 +76,12 @@
 <hr>
 <br>
 <h2>Crawl Space!</h2>
-<p>Preview this current project:</p>
+
+https://github.com/user-attachments/assets/05eb2168-413e-463c-830c-69bc9239aa0b
+
+<p>This is my current project, a retro style space bug blasting game! I've created and animated the basic enemy sprite (above) and the player sprite (featured below). I've also created the raygun and laser sprites as featured in the firing effects of the below video.</p>
+
+
 
 https://github.com/user-attachments/assets/7ae480f9-51de-4b3a-9294-190918fbf72c
 
