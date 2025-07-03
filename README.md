@@ -84,6 +84,14 @@ https://github.com/user-attachments/assets/f3a19316-eb21-4369-ab2c-39650a69e590
 (Bug sprite creation and animation approx 2 hours)
 
 <p>This is my current project, a retro style space bug blasting game! I've created and animated the basic enemy sprite (above) and the player sprite (featured below). I've also created the raygun and laser sprites as featured in the firing effects of the below video.</p>
+<p>
+  New Addition! Created demo room with (very) basic space-scape to showcase player movement and enemy animation. Took about an hour to integrate referencing GameMaker manual.
+</p>
+
+https://github.com/user-attachments/assets/162132e8-1cd9-4b20-ac91-f6ddfb28a20c
+
+
+
 (Did not measure time to create player sprite, raygun creation, animation, integrated into player sprite and re-drawing player sprite took around an hour)
 
 
