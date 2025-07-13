@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/bytebank/static/css/main.f855e6bc.css",
+    "main.js": "/bytebank/static/js/main.0829ebca.js",
+    "static/js/453.ad7768ec.chunk.js": "/bytebank/static/js/453.ad7768ec.chunk.js",
+    "index.html": "/bytebank/index.html",
+    "main.f855e6bc.css.map": "/bytebank/static/css/main.f855e6bc.css.map",
+    "main.0829ebca.js.map": "/bytebank/static/js/main.0829ebca.js.map",
+    "453.ad7768ec.chunk.js.map": "/bytebank/static/js/453.ad7768ec.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f855e6bc.css",
+    "static/js/main.0829ebca.js"
+  ]
+}
