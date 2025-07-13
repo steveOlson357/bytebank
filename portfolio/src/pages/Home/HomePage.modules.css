@@ -1,0 +1,19 @@
+.page-container {
+    border-style: groove;
+    max-width: 85%;
+    min-width: 65%;
+    flex-direction: row;
+    justify-self: center;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.profile-image-container {
+    max-width: 95%;
+    justify-self: center;
+}
+
+.profile-image {
+    border-radius: 50%;
+    max-width: 100%;
+}
