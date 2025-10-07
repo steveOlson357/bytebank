@@ -11,11 +11,11 @@ function HomePage() {
       return (
         <>
         <Header />
-        <div className="profile-image-container">
+        <div className="">
             <img 
                 src={ProfilePic} 
                 alt="Picture of me hot-swapping components."
-                className="profile-image"
+                className='rounded mx-auto d-block profile-image'
             />
         </div>
         <div className="page-container">
