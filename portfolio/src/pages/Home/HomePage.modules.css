@@ -1,3 +1,35 @@
+img {
+    shape-outside: url(../../shared/Images/ProfilePicCropped.png);
+    shape-image-threshold: 0.5;
+    shape-margin: 1rem;
+}
+
+div > h2 {
+    color:rgb(190, 240, 184);
+}
+
+ul {
+  list-style-type: none; /* Removes the default bullet points */
+}
+
+li {
+    margin-bottom: 1rem;
+    max-width: 75%;
+}
+p {
+    margin-bottom: 1rem;
+    max-width: 75%;
+}
+
+li > h6 {
+    color:rgb(35, 154, 6);
+}
+
+#title {
+    height: min-content;
+    font-size: 3rem;
+}
+
 .page-container {
     border-style: groove;
     max-width: 85%;
@@ -6,6 +38,16 @@
     justify-self: center;
     margin-top: 5%;
     margin-bottom: 5%;
+    color: white;
+}
+.title-container {
+    max-width: 80%;
+    min-width: 65%;
+    flex-direction: row;
+    justify-self: center;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    color: white;
 }
 
 .profile-image-container {
@@ -15,5 +57,7 @@
 
 .profile-image {
     max-width: 75%;
+    float: left;
     height:auto;
 }
+

@@ -4,7 +4,7 @@ import styles from "./Footer.modules.css";
 function Footer() {
     return (
         <>
-        <div className="lightblue footer-properties">
+        <div className="footer-properties">
             <p>
                 Contact: <a href="mailto:steve.olson357@gmail.com" >Email</a>
             </p>
