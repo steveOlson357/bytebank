@@ -1,15 +1,16 @@
 {
   "files": {
-    "main.css": "/bytebank/static/css/main.f855e6bc.css",
-    "main.js": "/bytebank/static/js/main.0829ebca.js",
+    "main.css": "/bytebank/static/css/main.3cff3af0.css",
+    "main.js": "/bytebank/static/js/main.9c3d445a.js",
     "static/js/453.ad7768ec.chunk.js": "/bytebank/static/js/453.ad7768ec.chunk.js",
+    "static/media/ProfilePicCropped.png": "/bytebank/static/media/ProfilePicCropped.3080700cbf5a7462cd67.png",
     "index.html": "/bytebank/index.html",
-    "main.f855e6bc.css.map": "/bytebank/static/css/main.f855e6bc.css.map",
-    "main.0829ebca.js.map": "/bytebank/static/js/main.0829ebca.js.map",
+    "main.3cff3af0.css.map": "/bytebank/static/css/main.3cff3af0.css.map",
+    "main.9c3d445a.js.map": "/bytebank/static/js/main.9c3d445a.js.map",
     "453.ad7768ec.chunk.js.map": "/bytebank/static/js/453.ad7768ec.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.f855e6bc.css",
-    "static/js/main.0829ebca.js"
+    "static/css/main.3cff3af0.css",
+    "static/js/main.9c3d445a.js"
   ]
 }
