@@ -1,0 +1,8 @@
+.footer-properties {
+    bottom: 20px;
+    width: 95%;
+    justify-self: center;
+    background-color: rgba(85, 3, 59, 0.157);
+    color: white;
+    text-align:center;  
+};
