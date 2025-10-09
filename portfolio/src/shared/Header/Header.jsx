@@ -1,7 +1,7 @@
 import React from "react";
-import styles from "./Header.module.css";
+import styles from "./Header.modules.css";
 import 'bootstrap/dist/css/bootstrap.min.css';
-import { Link } from "react-router-dom";
+import { Link } from "react-router";
 
 function Header() {
     return(
@@ -9,7 +9,7 @@ function Header() {
             <div className="header-name">
                 <nav className="navbar navbar-expand-lg navbar-dark">    
                   <div className="container-fluid">
-                    <a className="navbar-brand" id="title" href="#">Steven Olson</a>
+                    <Link className="navbar-brand" id="title" to="/bytebank">Steven Olson</Link>
                     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                       <span className="navbar-toggler-icon"></span>
                     </button>
@@ -22,6 +22,7 @@ function Header() {
                           <Link className="nav-link" to="/projects">Projects</Link>
                         </li>
                         <li className="nav-item">
+                          {/* TODO: Need to replace the below link to go to page with contact form */}
                           <a className="nav-link" href="https://steveolson357.github.io/bytebank/#:~:text=with%20any%20personality!-,Contact%3A,-PH%3A%20%2B1%20(208">Contact Me</a>
                         </li>
                       </ul>

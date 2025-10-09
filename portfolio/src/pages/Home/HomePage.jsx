@@ -11,7 +11,7 @@ function HomePage() {
       return (
         <>
         <Header />
-        <div className="">
+        <div className="profile-image">
             <img 
                 src={ProfilePic} 
                 alt="Me changing computer components."

@@ -1,5 +1,5 @@
 import React from "react";
-import styles from "./ProjectsPage.module.css";
+import styles from "./ProjectsPage.modules.css";
 import Header from "../../shared/Header";
 import Footer from "../../shared/Footer";
 

@@ -1,5 +1,5 @@
 import React from "react";
-import styles from "./PowerShellPage.module.css";
+import styles from "./PowerShellPage.modules.css";
 import Header from "../../shared/Header";
 import Footer from "../../shared/Footer";
 
