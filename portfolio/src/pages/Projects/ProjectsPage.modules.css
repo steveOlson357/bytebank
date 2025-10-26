@@ -1,0 +1,28 @@
+
+.page-container {
+    border-style: groove;
+    max-width: 85%;
+    min-width: 65%;
+    flex-direction: row;
+    justify-self: center;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    color: white;
+}
+
+.title-container {
+    max-width: 80%;
+    min-width: 65%;
+    flex-direction: row;
+    justify-self: center;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    color: white;
+}
+
+p {
+    margin-bottom: 1rem;
+    max-width: 75%;
+    justify-self: center;
+}
+
