@@ -23,7 +23,7 @@ function ProjectsPage() {
       <div className="page-container"> {/* Start page-container */}
         <div> {/* Start projectsPage style container */}
           <h1 className="title-container">Projects</h1>
-          <p>
+          <p className="color-dark">
             Welcome to my Projects page! 
             Here, you'll find a selection of my work that showcases my skills and experience in software development. 
             Each project highlights different technologies and problem-solving approaches I've utilized. 
