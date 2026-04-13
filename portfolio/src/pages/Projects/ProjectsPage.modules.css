@@ -1,0 +1,136 @@
+
+
+.page-container {
+    border-style: groove;
+    max-width: 2100px;
+    min-width: 65%;
+    flex-direction: row;
+    justify-self: center;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    color: white;
+}
+
+.project-description {
+    margin-bottom: 0.25rem;
+    max-width: 100%;
+    justify-self: center;
+    padding: 0.25rem;
+}
+
+.project-tech-stack {
+    font-size: 0.9rem;
+    font-style: italic;
+    margin-bottom: 1rem;
+    justify-self: center;
+    color: #dddddd;
+}
+
+.title-container {
+    max-width: 900px;
+    margin:  auto;
+    text-align: center;
+    
+    /* Gradient text effect */
+    background: linear-gradient(90deg, #af002d 0%, #ff7a18 70%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    -webkit-text-fill-color: transparent;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.25);
+    text-shadow: 5px 5px 50px rgb(255, 3, 129);
+
+    /* Responsive size: scales between 1.8rem and 2.6rem */
+    font-size: clamp(1.8rem, 2.2vw + 1.2rem, 2.6rem);
+    font-weight: 700;
+    letter-spacing: 0.6px;
+    text-transform: uppercase;
+    line-height: 1.05;
+    padding: 0.25rem 1rem;
+    position: relative;
+}
+
+.title-container::after {
+    /* small accent bar under the main title */
+    content: "";
+    display: block;
+    width: 72px;
+    height: 6px;
+    margin: 0.6rem auto 0;
+    border-radius: 4px;
+    background: linear-gradient(90deg, #ff7a18 0%, #af002d 70%);
+    box-shadow: 0 2px 6px rgba(0,0,0,0.25);
+}
+
+/* Project titles - left accent and slightly larger font */
+.project-title {
+    font-size: clamp(1.1rem, 1.2vw + 0.9rem, 1.6rem);
+    margin-bottom: 0.5rem;
+    margin-left: 1rem;
+    font-weight: 600;
+    letter-spacing: 0.2px;
+    position: relative;
+    padding-left: 0.9rem;
+    color:rgb(247, 111, 48);
+    text-shadow: 2px 2px 10px rgb(255, 3, 129);
+}
+
+.project-title::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 6px;
+    height: 60%;
+    border-radius: 4px;
+    background: linear-gradient(180deg, #ff7a18 0%, #a300af 70%);
+    box-shadow: 0 2px 6px rgba(0,0,0,0.25);
+}
+
+@media (max-width: 600px) {
+    .title-container { margin: 1.25rem auto; }
+    .project-title { padding-left: 0.6rem; }
+}
+
+/* Responsive video rules: make video scale to container width and stay centered */
+.video-container {
+    width: 100%;
+    max-width: 900px; /* change this max if you want a different limit */
+    min-width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 5rem;
+
+    background: linear-gradient(90deg, #ff7a18 0%, #af002d 70%);
+
+}
+
+.video-container video,
+.video-container iframe {
+    width: 100%;
+    height: auto;
+    display: block;
+
+    background: linear-gradient(45deg, #ff7a18 0%, #af002d 70%);
+    padding: 10px 10px 10px 10px;
+    box-shadow: 5px 5px 15px rgb(255, 3, 129);
+    border: 1px solid #a300af;
+
+    /* margin-bottom: -100px; */
+}
+
+p {
+    margin-bottom: 1rem;
+    max-width: 900px;
+    justify-self: center;
+}
+
+.color-dark {
+  color: #ffffff; /* or #FEFEFE to be explicit */
+  text-shadow: 0 4px 18px rgba(0,0,0,0.65);
+  -webkit-font-smoothing: antialiased;
+}
+
+
+
