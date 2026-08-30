@@ -1,0 +1,134 @@
+/* ==========================================================================
+   1. CORE VARIABLES & THEME SETUP
+   ========================================================================== */
+:root {
+    /* Color Palette */
+    --bg-main: #121214;         /* Deep slate-black layout background */
+    --bg-card: #1a1a1e;         /* Slightly lighter card/quadrant container background */
+    --border-color: #2a2a30;    /* Clean, subtle border definitions */
+    
+    /* Brand Accents */
+    --teal-primary: #00f2fe;   /* Neon teal for main interactive elements & hooks */
+    --teal-hover: #00b8c4;     /* Darker teal tone for smooth button states */
+    
+    /* Typography Colors */
+    --text-primary: #f8f9fa;   /* Bright white for high-priority headers and text */
+    --text-muted: #a0aec0;     /* Muted gray for body fragments, dates, and labels */
+    
+    /* Layout Tokens */
+    --radius: 6px;             /* Sharp, technical border radius */
+    --transition: all 0.2s ease-in-out;
+}
+
+/* ==========================================================================
+   2. GLOBAL RESET & BASE STYLES
+   ========================================================================== */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: var(--bg-main);
+    color: var(--text-primary);
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    line-height: 1.5;
+    padding: 2rem 1rem;
+}
+
+/* Mono-spaced token overrides for technical metrics, numbers, and dates */
+code, .tech-mono, .timeline-date {
+    font-family: 'Fira Code', 'JetBrains Mono', 'Courier New', monospace;
+    color: var(--teal-primary);
+}
+
+/* ==========================================================================
+   3. STRUCTURAL UTILITIES (The 4-Quadrant Grid & Framework)
+   ========================================================================== */
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+section {
+    margin-bottom: 3.5rem;
+}
+
+/* Responsive Skills & Metric Quadrant Grid */
+.quadrant-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 1rem;
+    margin-top: 1.5rem;
+}
+
+.card {
+    background-color: var(--bg-card);
+    border: 1px solid var(--border-color);
+    border-radius: var(--radius);
+    padding: 1.25rem;
+    transition: var(--transition);
+}
+
+.card:hover {
+    border-color: var(--teal-primary);
+    box-shadow: 0 0 10px rgba(0, 242, 254, 0.1);
+}
+
+/* ==========================================================================
+   4. COMPONENT STYLES (Headers, Timelines, Buttons)
+   ========================================================================== */
+h1, h2, h3 {
+    font-weight: 700;
+    letter-spacing: -0.025em;
+}
+
+.section-title {
+    font-size: 1.5rem;
+    border-bottom: 2px solid var(--border-color);
+    padding-bottom: 0.5rem;
+    margin-bottom: 1.5rem;
+}
+
+/* Interactive Action Buttons */
+.btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    background-color: transparent;
+    color: var(--teal-primary);
+    border: 1px solid var(--teal-primary);
+    border-radius: var(--radius);
+    padding: 0.5rem 1.25rem;
+    font-size: 0.9rem;
+    font-weight: 600;
+    text-decoration: none;
+    cursor: pointer;
+    transition: var(--transition);
+}
+
+.btn:hover {
+    background-color: var(--teal-primary);
+    color: var(--bg-main);
+}
+
+/* Vertical Chronological Timeline Layout */
+.timeline-item {
+    border-left: 2px solid var(--border-color);
+    padding-left: 1.5rem;
+    position: relative;
+    padding-bottom: 1.5rem;
+}
+
+.timeline-item::before {
+    content: '';
+    position: absolute;
+    left: -6px;
+    top: 6px;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: var(--bg-main);
+    border: 2px solid var(--teal-primary);
+}
