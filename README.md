@@ -1,7 +1,7 @@
 # # ByteBank - Steven Olson
 ### Welcome to ByteBank, my dynamic and interactive portfolio hub! 
 
-**📱 Telephonic Communications Array:** +1 986.205.1179
+**📱 Telephonic Communications Array:** +1 986.205.1179  
 **📧 Cyberspace Mail Delivery System:** steve.olson357@gmail.com  
 **📍 Target Location:** Western Michigan Area  
 **🚀 Play Live Published Game:** [Itch.io](https://techbytrade.itch.io/crawl-space)  
@@ -70,7 +70,7 @@ I am a highly versatile **Systems Integration & Infrastructure Specialist** brid
 
 ---
 
-## 🎮 Core Project Case Study: "Crawl Space"
+## 🎮 Core Project: "Crawl Space"
 *Dedicated Repository:* [updated-crawl-space](https://github.com)
 
 This repository functions as a technical demonstration of proficiency in self taught programming, computing, and real-world deployment, while also modeling mechanics of modern industrial automation i/o. 
