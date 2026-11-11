@@ -71,7 +71,7 @@ I am a highly versatile **Systems Integration & Infrastructure Specialist** brid
 ---
 
 ## 🎮 Core Project: "Crawl Space"
-*Dedicated Repository:* [updated-crawl-space](https://github.com)
+*Dedicated Repository:* [Crawl Space Repo](https://github.com/steveOlson357/updated-crawl-space)
 
 This repository functions as a technical demonstration of proficiency in self taught programming, computing, and real-world deployment, while also modeling mechanics of modern industrial automation i/o. 
 
