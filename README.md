@@ -4,8 +4,8 @@
 **📱 Telephonic Communications Array:** +1 986.205.1179
 **📧 Cyberspace Mail Delivery System:** steve.olson357@gmail.com  
 **📍 Target Location:** Western Michigan Area  
-**🚀 Play Live Simulation Demo:** [Itch.io](https://techbytrade.itch.io/crawl-space)
-**🚀 Play Live Simulation Demo:** [CrawlSpaceTheGame](https://crawlspacethegame.com)
+**🚀 Play Live Published Game:** [Itch.io](https://techbytrade.itch.io/crawl-space)
+**🚀 Play Live Custom Game Deployment:** [CrawlSpaceTheGame](https://crawlspacethegame.com)
 
 ---
 
